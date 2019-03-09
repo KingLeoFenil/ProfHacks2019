@@ -1,0 +1,24 @@
+{
+    "name":"Turn That Smile Upside Down",
+    "description":"Make sure your child is being punished properly through machine learning and facial recognition",
+    "version":"1.0",
+
+    "manifest_version": 2,
+
+    "browser_action": {
+        "default_icon":"icon.png",
+        "default_popup": "popup.html"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "permissions": [
+        "tabs",
+        "bookmarks",
+        "downloads",
+        "webRequest",
+        "webRequestBlocking"
+    ]
+}
